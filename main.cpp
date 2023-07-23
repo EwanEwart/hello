@@ -1,8 +1,7 @@
-
-#include <cstdio>
+#include "main.h"
 
 int main()
 {
-    printf("%s\n", "Hi! (printf)");
+    printf("%s\n", "Hi everybode ! (printf)");
 }
 
