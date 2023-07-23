@@ -2,6 +2,7 @@
 
 int main()
 {
-    printf("%s\n", "Hi everybode ! (printf)");
+    auto r = printf("%s\n", "Hi everybode ! (printf)");
+    printf("Chars printed : %d\n",r);
 }
 
