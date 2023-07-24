@@ -2,6 +2,13 @@
 
 using namespace std;
 
+double square(double d);
+
+void print_square(double d)
+{
+    cout << "؇" << d << " == " << square(d) << endl;
+}
+
 double square(double d)
 {
     return d*d;
