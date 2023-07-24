@@ -1,11 +1,9 @@
+#include "main.h"
 
-#include <iostream>
-#include <strstream>
 int main()
 {
-    std::strstream ss;
-    ss << "Hi !" << " / " << "Hi !" << " / " << "Hi !" << std::endl;
-    std::cout << ss.str() << std::endl;
+    auto r = printf("%s\n", "Hi everybode ! (printf)");
+    printf("Chars printed : %d\n",r);
 }
 
 
