@@ -14,6 +14,7 @@ double square(double d)
     return d*d;
 }
 
+// ...
 int main()
 {
     auto version {11};
