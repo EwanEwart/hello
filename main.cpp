@@ -14,7 +14,7 @@ double square(double d)
     return d*d;
 }
 
-// test square
+// test the square function
 int main()
 {
     auto version {11};
