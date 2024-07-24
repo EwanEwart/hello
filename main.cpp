@@ -15,6 +15,7 @@ double square(double d)
 }
 
 // ...
+// test the square function
 int main()
 {
     auto version {11};
